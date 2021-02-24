@@ -24,17 +24,47 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	}
 
+	html {
+	   font-family: "Robot", sans-serif,monospace;
+	   font-size: 1.125em; /* 18px / 16px = 1.125em */
+	   line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
+     text-align: justify;
+		 background-repeat: auto;
+	   background-size: cover;
+	   color: #FFFFFF;
+	}
+h1{
+	display: block;
+	   text-decoration: none;
+	   background: transparent;
+	   background-image: linear-gradient(to bottom right, orange, red, maroon); /*gradient background*/
+	   text-align: center;
+	   font-weight: 700;
+	   font-size: 2.441em; /* 43.945px/18px = 2.441em */
+	   line-height: 1.138em; /* 31.25px/43.945px = 1.138em*/
+	   padding-top: 0.138em;
+	   padding-bottom: 0.138em;
+	   color: #FFFFFF;
+
+}
+h2{
+font-family: "monospace", sans-serif,monospace;
+text-align: center;
+font-size: 1.5em;
+line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
+margin: center;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, main, menu, nav, section {
 	display: block;
 }
-html {
-	line-height: 1;
-}
+
 body {
   line-height: inherit;
 	background-image: url(../img/sunrise.jpg);
+
 }
 ol, ul {
 	list-style: none;
@@ -103,9 +133,15 @@ button:-moz-focusring,
 fieldset {
   border: 1px solid #c0c0c0;
 	width: 200px;
-  margin: 0 2px;
+  margin: auto;
+	text-align: left;
   padding: 0.35em 0.625em 0.75em;
+	background-image: linear-gradient(to bottom right, orange, red, maroon); /*gradient background*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFFFF;
 }
+
 legend {
   box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
@@ -152,4 +188,23 @@ textarea {
 ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
+}
+
+p{ border: 1px solid #c0c0c0;
+	width: 200px;
+  margin: 0 2px;
+  margin-bottom: 50px;
+	padding: 0.35em 0.625em 0.75em;
+	padding: 1.5625em 0.9615384615384616em 1.5625em 0.9615384615384616em; /*TRBL*/
+   background-image: linear-gradient(to bottom right, orange, red, maroon); /*gradient background*/
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #FFFFFF;
+}
+
+#footer {
+  grid-row: 9;
+  grid-column: 1 / 2;
+  text-align: center;
+  font-size: 0.778em; /*14px/18px = o.778em*/
 }
