@@ -69,14 +69,8 @@ body {
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
+
+
 table {
 	border-collapse: collapse;
 	border-spacing: 1;
@@ -166,7 +160,7 @@ textarea {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
-
+A
 
 [type="number"]::-webkiimt-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
@@ -196,10 +190,7 @@ p{ border: 1px solid #c0c0c0;
   margin-bottom: 50px;
 	padding: 0.35em 0.625em 0.75em;
 	padding: 1.5625em 0.9615384615384616em 1.5625em 0.9615384615384616em; /*TRBL*/
-   background-image: linear-gradient(to bottom right, orange, red, maroon); /*gradient background*/
-   background-repeat: no-repeat;
-   background-size: cover;
-   color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 #footer {
